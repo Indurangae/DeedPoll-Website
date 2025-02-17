@@ -1,0 +1,114 @@
+.contact-page {
+    font-family: Arial, sans-serif;
+  }
+  .contact-section-one {
+    position: relative;
+    background: url("../assets/background5.jpg") no-repeat center center/cover;
+    color: white;
+    text-align: left;
+    padding: 80px 20px;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+  }
+  .contact-section-one::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+  }
+  
+  .contact-section-one h2 {
+    margin-bottom: 30px;
+    margin-top: 70px;
+    font-size: 50px;
+    padding-left: 150px;
+  }
+  
+  .contact-section-one p {
+    margin-bottom: 30px;
+    max-width: 500px;
+    line-height: 23px;
+    padding-left: 150px;
+  }
+  
+  .blue-button5 {
+    background-color: #4420b9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 150px;
+  }
+  
+  .contact-section-two {
+    padding: 60px 200px;
+    background-color: #f9f9f9;
+    margin-bottom: 60px;
+  }
+  
+  .contact-section-two h2 {
+    margin-bottom: 30px;
+    font-size: 33px;
+    text-align: center;
+  }
+  
+  .working-hours {
+    border-radius: 8px;
+    padding: 20px;
+    background: #f9f9f9;
+  }
+  
+  .working-hours .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .working-hours .row:last-child {
+    border-bottom: none;
+  }
+  
+  .contact-section-two p {
+    margin-top: 20px;
+    color: #555;
+  }
+  .section-8 {
+    text-align: left;
+    padding: 50px 30px;
+    background-color: #3632c1; 
+    color: rgb(241, 241, 241); 
+    border-radius: 23px; 
+    max-width: 500px;
+    margin: 40px auto;
+}
+
+.section-8 h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.subheading {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.8;
+}
+
+.icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+  

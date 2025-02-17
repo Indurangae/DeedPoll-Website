@@ -1,0 +1,225 @@
+.privacy-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Section 1 - Hero */
+  .privacy-hero {
+    position: relative;
+    background: url("../assets/background.jpg") no-repeat center center/cover;
+    color: white;
+    text-align: left;
+    padding: 80px 20px;
+    width: 100%;
+    height: 320px;
+    z-index: 1;
+  }
+  .privacy-hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+  } 
+  .privacy-hero h1 {
+    margin-bottom: 30px;
+    margin-top: 40px;
+    font-size: 45px;
+  }
+  
+  .privacy-hero p {
+    margin-bottom: 30px;
+    max-width: 500px;
+    line-height: 23px;
+    padding-left: 150px;
+  }
+  
+  /* Section 2 - Overview */
+  .privacy-section {
+    padding: 40px 40px;
+    max-width: 520px;
+    line-height: 21px;
+  }
+  
+  .privacy-section h2 {
+    margin-bottom: 30px;
+    font-size: 40px;
+  }
+  
+  /* Section 3 - Detailed Explanation */
+  .privacy-detailed {
+    position: relative;
+    background: url("../assets/background5.jpg") no-repeat center center/cover;
+    color: white;
+    padding: 60px 20px;
+    z-index: 1;
+    text-align: left;
+  }
+  
+  .privacy-detailed::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+  }
+  
+  .privacy-detailed .content {
+    max-width: 1000px;
+    text-align: left;
+  }
+  
+  .privacy-detailed h2 {
+    font-size: 38px;
+  }
+  
+  /* Section 4 - Bullet Points */
+  .privacy-bullets {
+    padding: 50px 20px;
+  }
+  .privacy-bullets h2{
+    font-size: 38px;
+    text-align: center;
+  }
+  .privacy-bullets p{
+    color: grey;
+    text-align: center;
+    margin-left: 250px;
+    max-width: 700px;
+    margin-bottom: 40px;
+  }
+  .privacy-bullets ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    line-height: 26px;
+  }
+  
+  .privacy-bullets li {
+    margin-bottom: 8px;
+    margin-left: 50px;
+  }
+  
+  /* Section 5 - Privacy Features */
+  .privacy-features {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  .privacy-features h2{
+    font-size: 38px;
+  }
+  
+  .privacy-features .cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .privacy-features .card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .privacy-features .card img {
+    width: 50px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+  }
+  
+  .privacy-features .card h3 {
+    margin-bottom: 8px;
+  }
+  .privacy-features .card p {
+    font-size: 13px;
+  }
+  
+  /* Section 6 - Additional Details */
+  .privacy-extra {
+    padding: 50px 20px;
+    max-width: 700px;
+    padding-left: 250px;
+    line-height: 25px;
+  }
+  
+  .privacy-extra h2 {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 30px;
+  }
+  .privacy-extra h3 {
+    margin-bottom: 10px;
+    color: #3632c1;
+  }
+  
+  /* Section 7 - Guidelines */
+  .privacy-guidelines {
+    padding: 50px 20px;
+  }
+  
+  .privacy-guidelines .blue-heading {
+    color: #3632c1;
+    font-size: 34px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .privacy-guidelines ul {
+    list-style-type: disc;
+    padding-left: 100px;
+  }
+  
+  .privacy-guidelines li {
+    margin-bottom: 15px;
+  }
+  
+  /* Section 8 - Final Notes */
+  .privacy-final {
+    padding: 50px 20px;
+    max-width: 550px;
+    padding-left: 50px;
+  }
+  .privacy-final h2{
+    font-size: 40px;
+  }
+  
+  /* Section 9 - Warning */
+  .privacy-warning {
+    padding: 50px 50px;
+    margin-bottom: 50px;
+  }
+  .privacy-warning h2{
+    font-size: 44px;
+    text-align: center;
+  }
+  
+  .privacy-warning .warning {
+    color: red;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .privacy-hero,
+    .privacy-detailed {
+      text-align: center;
+    }
+  
+    .privacy-detailed .content {
+      max-width: 100%;
+    }
+  
+    .privacy-features .cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

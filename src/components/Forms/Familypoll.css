@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .section-11 {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    color: white;
+    overflow: hidden;
+  }
+  
+  .section-11::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../assets/background5.jpg') no-repeat center center/cover;
+    filter: brightness(60%);
+    z-index: -1;
+  }
+  
+  .section-11-content {
+    max-width: 600px;
+    padding-left: 30px;
+  }
+  .section-1-content1 h1{
+    font-size: 50px;
+    margin-top: 100px;
+  }
+  .section-1-content1 p{
+    max-width: 700px;
+  }
+  
+  .section-2 {
+    padding: 50px 20px;
+    max-width: 700px;
+    line-height: 22px;
+    padding-left: 50px;
+  }
+  
+  .section-2 h1 {
+    font-size: 38px;
+  }
+  
+  .sec2 {
+    background: #f5f5f5;
+    padding: 50px;
+  }
+  
+  .form-title {
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  .form-container {
+    max-width: 70%;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  input, select {
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .form-container {
+    max-width: 70%;
+    line-height: 2.4;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+select {
+    width: 100%;
+    height: 45px; 
+    font-size: 15px; 
+    padding: 10px;
+    margin: 10px 0; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    background-color: #fff; 
+    cursor: pointer;
+}
+.form-container label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+label[for="parentstatus"]::after,
+label[for="currentTitle"]::after,
+label[for="currentForename"]::after,
+label[for="currentSurname"]::after,
+label[for="newTitle"]::after,
+label[for="newForename"]::after,
+label[for="newSurname"]::after,
+label[for="surnamechanging"]::after,
+label[for="identification"]::after,
+label[for="email"]::after,
+label[for="newsurnamech1"]::after,
+label[for="currentForenamech1"]::after,
+label[for="price1"]::after,
+label[for="deed"]::after,
+label[for="deliveryoption"]::after,
+label[for="homeAddress"]::after,
+label[for="price1"]::after {
+    content: " *"; 
+    color: red;   
+}
+.form-container input, .form-container button {
+    width: 98%;
+    height: 25px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.radiob label, input{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0;
+}
+.radiob input[type="radio"] {
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+}
+.total-price {
+    background: #ffffff;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+  
+button {
+    background-color: rgb(0, 123, 255);
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    min-height: 52px;
+    transition: transform 0.3s ease-in-out; 
+}
+
+button:hover {
+    transform: scale(1.05); 
+}
+
+  

@@ -1,0 +1,164 @@
+.terms-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Section 1 - Hero */
+  .terms-hero {
+    position: relative;
+    background: url("../assets/background4.jpg") no-repeat center center/cover;
+    color: white;
+    text-align: left;
+    padding: 80px 20px;
+    width: 100%;
+    height: 300px;
+    z-index: 1;
+  }
+  .terms-hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+  }
+  
+  .terms-hero h1 {
+    font-size: 46px;
+    margin-top: 70px;
+    margin-left: 40px;
+    max-width: 300px;
+    line-height: 55px;
+  }
+  
+  /* Section 2 - Bullet Points Card */
+  .terms-section {
+    padding: 50px 20px;
+  }
+  
+  .terms-section h2 {
+    margin-bottom: 15px;
+    font-size: 45px;
+    text-align: center;
+  }
+  
+  .terms-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 25px;
+  }
+  
+  .terms-card ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .terms-card li {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  /* Section 3 - Detailed Explanation */
+  .terms-details {
+    padding: 50px 20px;
+  }
+  
+  .terms-details h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 38px;
+  }
+  
+  .terms-details p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+    text-align: justify;
+    margin-left: 175px;
+    max-width: 880px;
+  }
+  
+  .terms-details ul {
+    list-style-type: disc;
+    padding-left: 50px;
+    line-height: 25px;
+    margin-bottom: 60px;
+  }
+  
+  .terms-details li {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .terms-details h3 {
+    margin-top: 20px;
+    font-size: 45px;
+    color: rgb(74, 10, 201);
+    text-align: center;
+  }
+  
+  /* Section 4 - Percentage Cards */
+  .terms-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .stat-card {
+    border-radius: 10px;
+    max-width: 250px;
+  }
+  
+  .stat-card h2 {
+    font-size: 70px;;
+  }
+  
+  .stat-card p {
+    font-size: 16px;
+  }
+  
+  /* Section 5 - Final Notes */
+  .terms-footer {
+    text-align: center;
+    padding: 50px 20px;
+    max-width: 600px;
+    padding-left: 300px;
+    margin-bottom: 50px;
+  }
+  
+  .terms-footer h2 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  .terms-footer p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  @media (max-width: 768px) {
+    .terms-hero {
+      text-align: center;
+    }
+  
+    .terms-hero h1 {
+      margin-left: 0;
+    }
+  
+    .terms-card {
+      max-width: 100%;
+    }
+  
+    .terms-stats {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  

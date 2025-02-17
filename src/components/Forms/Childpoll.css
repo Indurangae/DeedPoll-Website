@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .section-1 {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    color: white;
+    overflow: hidden;
+  }
+  
+  .section-1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../assets/background2.jpg') no-repeat center center/cover;
+    filter: brightness(60%);
+    z-index: -1;
+  }
+  
+  .section-1-content {
+    max-width: 450px;
+  }
+  .section-1-content h1{
+    font-size: 45px;
+  }
+  
+  .section-222 {
+    padding: 50px 20px;
+    max-width: 580px;
+    padding-left: 60px;
+  }
+  .section-222 h1{
+    font-size: 40px;
+  }
+  .form-title12 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+  }
+  .form-container12 {
+    max-width: 85%;
+    line-height: 30px;
+    margin: auto;
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+  }
+  label[for="currentTitle"]::after,
+  label[for="currentForename"]::after,
+  label[for="currentSurname"]::after,
+  label[for="newTitle"]::after,
+  label[for="newForename"]::after,
+  label[for="newSurname"]::after,
+  label[for="age"]::after,
+  label[for="identification"]::after,
+  label[for="email"]::after,
+  label[for="price1"]::after,
+  label[for="deed"]::after,
+  label[for="deliveryoption"]::after,
+  label[for="homeAddress"]::after,
+  label[for="price1"]::after {
+      content: " *"; 
+      color: red;   
+  }
+  
+  input, button {
+    width: 98%;
+    height: 40px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  button {
+    background-color: rgb(0, 123, 255);
+    color: white;
+    border: none;
+    font-size: 16px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  .total-price {
+    background: #ffffff;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  .radiob label, input{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0;
+  }
+  .radiob input[type="radio"] {
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+  }
+  

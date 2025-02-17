@@ -1,0 +1,158 @@
+.apply-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  .apply-section-one {
+    position: relative;
+    background: url("../assets/background5.jpg") no-repeat center center/cover;
+    color: white;
+    text-align: left;
+    padding: 80px 20px;
+    width: 100%;
+    height: 350px;
+    z-index: 1;
+  }
+  .apply-section-one::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+  }
+  
+  .apply-section-one h2 {
+    margin-bottom: 10px;
+    margin-top: 200px;
+    font-size: 45px;
+    padding-left: 100px;
+
+  }
+  
+  .apply-section-one p {
+    margin-bottom: 20px;
+    max-width: 600px;
+    padding-left: 100px;
+  }
+  
+  .apply-section-two {
+    padding: 60px 20px;
+    padding-left: 80px;
+  }
+  
+  .apply-section-two h2 {
+    margin-bottom: 30px;
+    max-width: 500px;
+    font-size: 35px;
+  }
+  
+  .apply-section-two p {
+    margin-bottom: 40px;
+    max-width: 500px;
+    color: gray;
+  }
+  
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .blue-button {
+    background-color: #3632c1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 125px;
+    text-align: left;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  }
+  
+  .blue-button:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+  }
+  
+  
+  .apply-section-three {
+    padding: 60px 20px;
+    margin-bottom: 60px;
+  }
+  
+  .apply-section-three h2 {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 42px;
+  }
+  
+  .process-steps {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 18%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .circle {
+    width: 40px;
+    height: 40px;
+    background: #007bff;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 auto 10px;
+  }
+  
+  .card h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  .section-8 {
+    text-align: left;
+    padding: 50px 30px;
+    background-color: #3632c1; 
+    color: rgb(241, 241, 241); 
+    border-radius: 23px; 
+    max-width: 500px;
+    margin: 40px auto;
+    margin-bottom: 100px;
+}
+
+.section-8 h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.subheading {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.8;
+}
+
+.icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+    

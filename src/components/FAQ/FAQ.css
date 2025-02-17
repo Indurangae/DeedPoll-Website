@@ -1,0 +1,176 @@
+.faq-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  .faq-section-one {
+    position: relative;
+    background: url("../assets/background4.jpg") no-repeat center center/cover;
+    color: white;
+    text-align: left;
+    padding: 80px 20px;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+  }
+  .faq-section-one::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+  }
+  
+  .faq-section-one h2 {
+    margin-bottom: 30px;
+    margin-top: 70px;
+    font-size: 40px;
+  }
+  
+  .faq-section-one p {
+    margin-bottom: 30px;
+    max-width: 1000px;
+    line-height: 23px;
+  }
+  
+  .blue-button1 {
+    background-color: #281891;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .faq-section-two {
+    display: flex;
+    padding: 60px 20px;
+    align-items: center;
+  }
+  
+  .faq-section-two .left {
+    flex: 1;
+    padding-left: 50px;
+  }
+  
+  .faq-section-two .left h2 {
+    margin-bottom: 30px;
+    font-size: 35px;
+    color: #2e4cd3;
+  }
+  
+  .faq-section-two .left ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  
+  .faq-section-two .left ul li {
+    margin-bottom: 10px;
+    color: rgb(101, 101, 101);
+  }
+  
+  .faq-section-two .right {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .faq-section-two .right img {
+    max-width: 350px;
+    height: auto;
+    padding-right: 100px;
+    border-radius: 20px;
+  }
+  
+  .faq-section-three {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .faq-section-three h2{
+    font-size: 30px;
+  }
+  
+  .faq-section-three .cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .faq-section-three .card {
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    width: 15%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-section-three .card img {
+    width: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .faq-section-four {
+    background: url("../assets/background4.jpg") no-repeat center center/cover;
+    padding: 60px 20px;
+    text-align: center;
+    height: 400px;
+  }
+  .faq-section-four h2{
+    color: #605bdc;
+    font-size: 32px;
+  }
+  .review-box {
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+    width: 20%;
+    background: rgba(0, 0, 0, 0.7);
+    line-height: 24px;
+  }
+  .review-box p{
+    color: #f8f8f8;
+  }
+  
+  .stars {
+    color: #ffcc00;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .section-8 {
+    text-align: left;
+    padding: 50px 30px;
+    background-color: #3632c1; 
+    color: rgb(241, 241, 241); 
+    border-radius: 23px; 
+    max-width: 500px;
+    margin: 40px auto;
+}
+
+.section-8 h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.subheading {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.8;
+}
+
+.icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+  
